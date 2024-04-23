@@ -33,7 +33,7 @@ public class DeveloperController {
     @PostConstruct
     public void init(){
         this.developers = new HashMap<>();
-        developers.put(1,new Developer(1,"Batu",2500.0, JUNIOR));
+        this.developers.put(1,new Developer(1,"Batu",2500.0, JUNIOR));
     }
 
     //[GET]/workintech/developers => tüm developers mapinin value değerlerini List olarak döner.
